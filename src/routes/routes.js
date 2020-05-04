@@ -8,6 +8,6 @@ router.get('/vendas', vendasController.vendasHoje);
 router.post('/inserirVendas', vendasController.Insert);
 
 //router.post('/vendas', vendasController.Insert);
-//router.post('/oi', vendasController.Inserir);
+router.post('/oi', vendasController.Inserir);
 
 module.exports = router;
